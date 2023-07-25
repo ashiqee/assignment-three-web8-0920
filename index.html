@@ -4,6 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BB</title>
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- DaisyUI CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style></style>
   </head>
-  <body></body>
+  <body>
+    <header class="container mx-auto">
+      <!-- lg screen view menu  -->
+      <div class="flex justify-between">
+        <div class="navbar bg-base-100 bg-[#F85559] px-4 rounded-full">
+          <div class="navbar-start hidden lg:flex flex-nowrap">
+            <ul class="text-white menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+
+          <!-- mobile view menu  -->
+
+          <div class="navbar-center">
+            <a class="font-bold text-4xl flex items-center gap-2"
+              ><img src="images/logo.png" alt="" />
+              <h2 class="text-white">Fruit Burst</h2></a
+            >
+          </div>
+
+          <div class="navbar-end">
+            <a class="btn">Button</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- banner section with slider  -->
+      <div class="container mx-auto"></div>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
