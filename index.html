@@ -250,10 +250,10 @@
 
       <!-- banner fruits menu start -->
       <section
-        class="container rounded-xl bg-white p-6 mx-auto w-2/3 relative -top-28 shadow-lg hidden lg:flex"
+        class="container rounded-xl bg-white p-6 mx-auto w-2/3 relative -top-28 shadow-lg hidden lg:flex justify-center"
       >
-        <div class="flex items-center text-center gap-x-36">
-          <div class="">
+        <div class="grid grid-flow-col auto-cols-max  gap-10 items-center  text-center">
+          <div>
             <img src="images/fruit1.png" alt="" />
             <p>Blackberry</p>
           </div>
@@ -294,7 +294,7 @@
           </div>
 
           <!-- countdown section  -->
-          <div class="grid grid-flow-col gap-5 auto-cols-max relative left-20 lg:left-0">
+          <div class="grid grid-flow-col gap-5 auto-cols-max place-content-center  lg:left-0">
             <div class="flex flex-col">
               <span
                 class="countdown font-extrabold text-5xl items-center flex gap-3 pt-2"
@@ -334,9 +334,9 @@
         </div>
         <!-- card deal  -->
 
-        <div class="mt-4 gap-5 grid grid-flow-row lg:grid-flow-col  place-items-center ">
+        <div class="mt-4 gap-2 grid grid-flow-row lg:grid-flow-col  place-items-center ">
           <!-- fruits one  -->
-          <div class="card w-96 bg-base-100 shadow-2xl">
+          <div class="card w-72 bg-base-100 shadow-2xl">
             <figure class="px-10 pt-10">
               <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
             </figure>
@@ -424,7 +424,7 @@
             </div>
           </div>
           <!-- fruits two  -->
-          <div class="card w-96 bg-base-100 shadow-2xl">
+          <div class="card w-72 bg-base-100 shadow-2xl">
             <figure class="px-10 pt-10">
               <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
             </figure>
@@ -512,7 +512,7 @@
             </div>
           </div>
           <!-- fruits three  -->
-          <div class="card w-96 bg-base-100 shadow-2xl">
+          <div class="card w-72 bg-base-100 shadow-2xl">
             <figure class="px-8 pt-10">
               <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
             </figure>
@@ -600,7 +600,7 @@
             </div>
           </div>
           <!-- fruits four  -->
-          <div class="card w-96 bg-base-100 shadow-2xl">
+          <div class="card w-72 bg-base-100 shadow-2xl">
             <figure class="px-8 pt-10">
               <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
             </figure>
@@ -820,18 +820,39 @@
 
 <!-- left content why choose us  -->
 
-<div>
-  <div class="flex gap-4">
+<div> <!--  main div  -->
+
+  <div class="grid grid-flow-row p-6 gap-10 ">
+   
+   <div class="flex gap-5">
     <div class=""><i class="fa-solid fa-users bg-slate-800 rounded-full p-3 bg-opacity-20 text-white" ></i> 
       </div>
-      <div><h4>Dedicated Team</h4>
-        <hr class="w-2  " >
-        <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p></div>
+      <div><h4 class="text-2xl font-extrabold">Dedicated Team</h4>
+        <hr class="w-28 border-b-2 border-black  " >
+        <p class="font-medium text-slate-500">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    </div>
+</div>
+   <div class="flex gap-5">
+   
+    <div class=""><i class="fa-solid fa-heart-circle-check bg-slate-800 rounded-full p-3 bg-opacity-20 text-white" ></i> 
+      </div>
+      <div><h4 class="text-2xl font-extrabold ">Fresh is Best</h4>
+        <hr class="w-28 border-b-2 border-black  " >
+        <p class="font-medium text-slate-500">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    </div>
+</div>
+   <div class="flex gap-5">
     
+    <div class=""><i class="fa-solid fa-gifts bg-slate-800 rounded-full p-3 bg-opacity-20 text-white" ></i> 
+      </div>
+      <div><h4 class="text-2xl font-extrabold">Gift Certificates</h4>
+        <hr class="w-28 border-b-2 border-black  " >
+        <p class="font-medium text-slate-500">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    </div>
+</div>
 
-  </div> 
-  <div class="grid w-32 h-20 rounded bg-accent text-accent-content place-content-center">2</div> 
-  <div class="grid w-32 h-20 rounded bg-secondary text-secondary-content place-content-center">3</div>
+ 
+  
 </div>
 
 
@@ -841,7 +862,7 @@
 
 <!-- right content why choose us  -->
 
-</div>
+ </div> <!--main div end  -->
 
 </section>
 
