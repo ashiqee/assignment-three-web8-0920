@@ -57,7 +57,7 @@
   <body class="font-lato">
     <header class="container mx-auto my-10">
       <!-- lg screen view menu  -->
-      <div class="flex justify-between">
+      <div class="hidden lg:flex justify-between">
         <div class="navbar bg-base-100 bg-main-color px-4 rounded-full">
           <div class="navbar-start hidden lg:flex">
             <ul class="text-white menu menu-horizontal px-1">
@@ -68,10 +68,9 @@
             </ul>
           </div>
 
-          <!-- mobile view menu  -->
-
+                    
           <div class="navbar-center">
-            <a class="font-bold text-4xl flex items-center gap-2"
+            <a class="font-bold text-4xl hidden lg:flex items-center gap-2"
               ><img src="images/logo.png" alt="" />
               <h2 class="text-white">Fruit Burst</h2></a
             >
@@ -91,6 +90,33 @@
           </div>
         </div>
       </div>
+<!-- mobile view menu  -->
+
+<nav class="container mx-auto px-6">
+  <div class=" grid grid-flow-col justify-between items-center  ">
+    <div>
+  <a class="font-bold text-4xl flex lg:hidden items-center gap-2 "
+  ><img src="images/logo.png" alt="" />
+  <h2 class="text-black">Fruit Burst</h2>
+  </a></div>
+
+  <div class="navbar-end lg:hidden place-items-end ">
+    <div class="dropdown ">
+      <label tabindex="0" class="btn btn-ghost btn-circle ">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+      </label>
+      <ul tabindex="0" class="menu menu-sm  dropdown-content mt-3 z-[1] relative right-8 p-2 shadow bg-base-100 rounded-box w-32 ">
+        <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+
+
     </header>
 
     <main>
@@ -252,10 +278,10 @@
       <!-- banner fruits menu END -->
 
       <!-- Deal of the day section start  -->
-      <section class="">
+      <section class="container mx-auto">
         <!-- deal content and countdown  -->
         <div
-          class="container mx-auto mt-8 lg:flex text-center lg:text-left justify-between items-center"
+          class="mt-8 lg:flex text-center lg:text-left justify-between "
         >
           <!-- deal content -->
           <div class="py-3 max-w-2xl">
@@ -268,7 +294,7 @@
           </div>
 
           <!-- countdown section  -->
-          <div class="grid grid-flow-col gap-5 auto-cols-max">
+          <div class="grid grid-flow-col gap-5 auto-cols-max relative left-20 lg:left-0">
             <div class="flex flex-col">
               <span
                 class="countdown font-extrabold text-5xl items-center flex gap-3 pt-2"
@@ -308,7 +334,7 @@
         </div>
         <!-- card deal  -->
 
-        <div class="container mx-auto mt-4 gap-5 grid grid-flow-row lg:grid-flow-col">
+        <div class="mt-4 gap-5 grid grid-flow-row lg:grid-flow-col  place-items-center ">
           <!-- fruits one  -->
           <div class="card w-96 bg-base-100 shadow-2xl">
             <figure class="px-10 pt-10">
@@ -775,7 +801,49 @@
 <!-- meet the team section end  -->
 
 
+<!-- why choose us -->
+<section class="container mx-auto">
+<!-- why choose us content  -->
+<div >
+  <div class="hero  mt-20">
+    <div class="hero-content text-center">
+      <div class="max-w-2xl">
+        <h1 class="text-5xl font-bold">Why Choose Us</h1>
+        <p class="py-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+         </div>
+    </div>
+  </div>
+</div>
 
+
+<div>
+
+<!-- left content why choose us  -->
+
+<div>
+  <div class="flex gap-4">
+    <div class=""><i class="fa-solid fa-users bg-slate-800 rounded-full p-3 bg-opacity-20 text-white" ></i> 
+      </div>
+      <div><h4>Dedicated Team</h4>
+        <hr class="w-2  " >
+        <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p></div>
+    
+
+  </div> 
+  <div class="grid w-32 h-20 rounded bg-accent text-accent-content place-content-center">2</div> 
+  <div class="grid w-32 h-20 rounded bg-secondary text-secondary-content place-content-center">3</div>
+</div>
+
+
+<!-- mid content why choose us  -->
+
+
+
+<!-- right content why choose us  -->
+
+</div>
+
+</section>
 
 
 
